@@ -1,0 +1,17 @@
+
+<div class="container mt-5">
+    <div *ngFor="let ipad of ipadList" class="list-group mt-2">
+        <div   class="list-group-item list-group-item-action" aria-current="true">
+        <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">{{ipad.name}}</h5>
+            <div>
+                <button type="button" class="btn btn-outline-danger me-2">bearbeiten</button>
+                <button type="button" class="btn btn-outline-success">reservieren</button>  
+            </div>
+
+        </div>
+        <p class="mb-1">{{ipad.owner}}</p>
+    </div>
+    </div> 
+ 
+</div>
